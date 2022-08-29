@@ -6,7 +6,7 @@ import com.tugalsan.api.validator.client.*;
 
 public class TS_SQLMinValue {
 
-    final private static TS_Log d = TS_Log.of(TS_SQLMinValue.class.getSimpleName());
+    final private static TS_Log d = TS_Log.of(TS_SQLMinValue.class);
 
     public TS_SQLMinValue(TS_SQLMinExecutor executor) {
         this.executor = executor;

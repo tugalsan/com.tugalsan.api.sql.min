@@ -9,7 +9,7 @@ import com.tugalsan.api.sql.where.server.*;
 
 public class TS_SQLMinExecutor {
 
-    private static TS_Log d = TS_Log.of(TS_SQLMinExecutor.class.getSimpleName());
+    private static TS_Log d = TS_Log.of(TS_SQLMinExecutor.class);
 
     public TS_SQLMinExecutor(TS_SQLConnAnchor anchor, CharSequence tableName, CharSequence columnName) {
         this.anchor = anchor;
