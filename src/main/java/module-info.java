@@ -1,7 +1,7 @@
 module com.tugalsan.api.sql.min {
     requires java.sql;
     requires com.tugalsan.api.time;
-    requires com.tugalsan.api.pack;
+    requires com.tugalsan.api.tuple;
     requires com.tugalsan.api.validator;
     requires com.tugalsan.api.callable;
     requires com.tugalsan.api.runnable;
