@@ -26,7 +26,7 @@ public class TS_SQLMinExecutor {
     public String toString() {
         TS_SQLSanitizeUtils.sanitize(columnName);
         TS_SQLSanitizeUtils.sanitize(tableName);
-        var sb = new StringBuilder().append("SELECT MIN(").append(columnName).append(") ").append(" FROM ").append(tableName);
+        var sb = new StringBuilder().append(anchor.tagSelectAndSpace()).append("MIN(").append(columnName).append(") ").append(" FROM ").append(tableName);
         if (where != null) {
             sb.append(" ").append(where);
         }
